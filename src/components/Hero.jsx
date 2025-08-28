@@ -12,40 +12,42 @@ const Hero = () => {
   };
 
   return (
-    <section className="flex flex-row h-100 justify-center gap-25">
-      <div className="h-100 flex flex-col justify-center items-center px-10">
-        <h1 className="text-5xl font-bold w-full h-15 bg-gradient-to-r from-gradient-1 to-gradient-2 bg-clip-text text-transparent">
+    <section className="sm:flex sm:flex-col lg:flex-row lg:justify-between lg:p-10 xl:justify-center xl:gap-x-50">
+      <div className="lg:flex lg:flex-col lg:justify-center">
+        <h1 className="sm:text-center sm:text-5xl lg:text-left font-bold w-full h-15 bg-gradient-to-r from-gradient-1 to-gradient-2 bg-clip-text text-transparent">
           Hi, I'm Chanvirakyuth
         </h1>
-        <p className="w-full">
+        <p className="sm:text-center sm:text-2xl lg:text-base lg:text-left w-full">
           I build responsive and beautiful websites.
           <br />
           My goal is to create seamless digital experiences
           <br />
           that are a joy for people to use.
         </p>
-        <div className="w-full h-20 mt-3 text-black font-bold flex justify-between items-center gap-5">
+        <div className="w-full my-3 text-black font-bold flex sm:justify-center md:justify-center lg:justify-start lg:mt-5 items-center gap-x-5 lg:gap-x-3">
           <button
             onClick={onGitHubClick}
-            className="hover:cursor-pointer hover:scale-110 transition-all bg-gradient-to-r from-gradient-1 to-gradient-2 text-2xl h-75/100 w-60 rounded-full flex justify-center items-center"
+            className="sm:h-15 sm:w-75 md:w-75 lg:w-50 hover:cursor-pointer hover:scale-110 transition-all bg-gradient-to-r from-gradient-1 to-gradient-2 text-2xl h-75/100 w-60 rounded-full flex justify-center items-center"
           >
             <FaGithub className="text-4xl mr-3" />
             GitHub
           </button>
           <button
             onClick={onTelegramClick}
-            className="hover:cursor-pointer hover:scale-110 transition-all bg-gradient-to-r from-gradient-1 to-gradient-2 text-2xl h-75/100 w-60 rounded-full flex justify-center items-center"
+            className="sm:h-15 sm:w-75 md:w-75 lg:w-50 hover:cursor-pointer hover:scale-110 transition-all bg-gradient-to-r from-gradient-1 to-gradient-2 text-2xl h-75/100 w-60 rounded-full flex justify-center items-center"
           >
             <FaTelegram className="text-4xl mr-3" />
             Telegram
           </button>
         </div>
-        <a href={CV} download="MyExampleDoc" target='_blank' className="hover:cursor-pointer hover:scale-110 transition-all text-black font-bold bg-gradient-to-r from-gradient-1 to-gradient-2 text-2xl h-15 w-full rounded-full flex justify-center items-center">
+        <div className="flex justify-center items-center lg:justify-start">
+          <a href={CV} download="MyExampleDoc" target='_blank' className="sm:w-120 md:w-120 lg:w-103 hover:cursor-pointer hover:scale-110 transition-all text-black font-bold bg-gradient-to-r from-gradient-1 to-gradient-2 text-2xl h-15 w-full rounded-full flex justify-center items-center">
           <FaFileDownload className="text-4xl mr-3" />
           Download CV
-        </a>
+          </a>
+        </div>
       </div>
-      <div className="h-100 flex justify-center items-center hover:scale-110 transition-all">
+      <div className="sm:order-first lg:order-last sm:flex sm:justify-center sm:items-center hover:scale-110 transition-all">
         <div className="rounded-full bg-gradient-to-r from-gradient-1 to-gradient-2 p-1.25">
           <img
             src={profilePic}
