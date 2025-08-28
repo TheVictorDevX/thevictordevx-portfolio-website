@@ -3,7 +3,7 @@ import Hero from "./components/Hero"
 function App() {
 
   return (
-    <div className="bg-black text-white">
+    <div className="w-screen bg-black text-white">
       <Hero/>
     </div>
   )
