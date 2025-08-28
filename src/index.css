@@ -1,6 +1,26 @@
 @import "tailwindcss";
 
-@theme{
-    --color-gradient-1: #FFE000;
-    --color-gradient-2: #799F0C;
+@theme {
+  --color-gradient-1: #FFE000;
+  --color-gradient-2: #799F0C;
+}
+
+@layer utilities {
+  @keyframes gradient-bg {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .animate-gradient {
+    background: linear-gradient(270deg, var(--color-gradient-1), var(--color-gradient-2));
+    background-size: 200% 200%;
+    animation: gradient-bg 10s ease infinite;
+  }
 }

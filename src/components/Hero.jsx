@@ -15,7 +15,7 @@ const Hero = () => {
   return (
     <section className="w-full flex flex-col lg:flex-row justify-center items-center py-8 lg:gap-x-25">
       {/* Profile Picture */}
-      <div className="lg:order-last hover:scale-110 hover:m-2 transition-all bg-gradient-to-r from-gradient-1 to-gradient-2 rounded-full w-60 p-1.25">
+      <div className="animate-gradient lg:order-last hover:scale-110 hover:m-2 transition-all bg-gradient-to-r from-gradient-1 to-gradient-2 rounded-full w-60 p-1.25">
         <img src={profilePic} alt="Profile Picture" className="rounded-full" />
       </div>
 
@@ -47,7 +47,7 @@ const Hero = () => {
         <div className="lg:mt-5 flex justify-center items-center gap-x-1 mt-1">
           {/* GitHub Button */}
           <a
-            className="hover:scale-110 hover:m-2 transition-all h-12 p-3 text-black font-bold bg-gradient-to-r from-gradient-1 to-gradient-2 rounded-full flex justify-center items-center"
+            className="animate-gradient hover:scale-110 hover:m-2 transition-all h-12 p-3 text-black font-bold bg-gradient-to-r from-gradient-1 to-gradient-2 rounded-full flex justify-center items-center"
             href="https://github.com/TheVictorDevX"
             target="_blank"
           >
@@ -55,7 +55,7 @@ const Hero = () => {
           </a>
           {/* Telegram Button */}
           <a
-            className="hover:scale-110 hover:m-2 transition-all h-12 p-3 text-black font-bold bg-gradient-to-r from-gradient-1 to-gradient-2 rounded-full flex justify-center items-center"
+            className="animate-gradient hover:scale-110 hover:m-2 transition-all h-12 p-3 text-black font-bold bg-gradient-to-r from-gradient-1 to-gradient-2 rounded-full flex justify-center items-center"
             href="https://t.me/TaiKaizenToo"
             target="_blank"
           >
@@ -65,7 +65,7 @@ const Hero = () => {
 
         {/* Download CV Button */}
         <a
-          className="lg:w-63 hover:scale-110 hover:m-2 transition-all h-12 p-3 mt-0.5 text-black font-bold bg-gradient-to-r from-gradient-1 to-gradient-2 rounded-full flex justify-center items-center"
+          className="animate-gradient lg:w-63 hover:scale-110 hover:m-2 transition-all h-12 p-3 mt-0.5 text-black font-bold bg-gradient-to-r from-gradient-1 to-gradient-2 rounded-full flex justify-center items-center"
           href={CV}
           target="_blank"
           download
