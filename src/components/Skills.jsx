@@ -45,6 +45,7 @@ const Skills = () => {
         <SkillCard icon={html} title="VS Code" />
         <SkillCard icon={html} title="XAMPP" />
         <SkillCard icon={html} title="Postman" />
+        <SkillCard icon={html} title="Vercel" />
     </SkillSection>
 
     <SkillSection title="Design">
