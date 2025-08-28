@@ -12,7 +12,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="w-full flex flex-col justify-center items-center gap-y-1">
+    <section className="w-full flex flex-col justify-center items-center gap-y-1.5 p-8">
       {/* Profile Picture */}
       <div className="bg-gradient-to-r from-gradient-1 to-gradient-2 rounded-full w-60 p-1.25">
         <img src={profilePic} alt="Profile Picture" className="rounded-full" />
@@ -36,15 +36,17 @@ const Hero = () => {
       <div className="flex gap-x-1 mt-1">
         {/* GitHub Button */}
         <a
-          className="w-32 h-12 text-black font-bold bg-gradient-to-r from-gradient-1 to-gradient-2 rounded-full flex justify-center items-center"
+          className="hover:scale-110 hover:m-5 transition-transform p-3 text-black font-bold bg-gradient-to-r from-gradient-1 to-gradient-2 rounded-full flex justify-center items-center"
           href="https://github.com/TheVictorDevX"
+          target="_blank"
         >
           <FaGithub className="text-3xl mr-2" /> GitHub
         </a>
         {/* Telegram Button */}
         <a
-          className="w-32 h-12 text-black font-bold bg-gradient-to-r from-gradient-1 to-gradient-2 rounded-full flex justify-center items-center"
+          className="p-3 text-black font-bold bg-gradient-to-r from-gradient-1 to-gradient-2 rounded-full flex justify-center items-center"
           href="https://t.me/TaiKaizenToo"
+          target="_blank"
         >
           <FaTelegram className="text-3xl mr-2" /> Telegram
         </a>
@@ -52,8 +54,10 @@ const Hero = () => {
 
       {/* Download CV Button */}
       <a
-        className="w-42 h-12 mt-0.5 text-black font-bold bg-gradient-to-r from-gradient-1 to-gradient-2 rounded-full flex justify-center items-center"
-        href="https://github.com/TheVictorDevX"
+        className="p-3 mt-0.5 text-black font-bold bg-gradient-to-r from-gradient-1 to-gradient-2 rounded-full flex justify-center items-center"
+        href={CV}
+        target="_blank"
+        download
       >
         <FaFileDownload className="text-3xl mr-2" /> Download CV
       </a>
