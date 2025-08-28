@@ -1,6 +1,7 @@
 import profilePic from "../assets/images/profile_picture.jpg";
 import { FaFileDownload, FaGithub, FaTelegram } from "react-icons/fa";
 import CV from "../assets/images/profile_picture.jpg";
+import { ReactTyped } from "react-typed";
 
 const Hero = () => {
   const onGitHubClick = () => {
@@ -22,7 +23,15 @@ const Hero = () => {
       <div className="flex flex-col justify-center items-center lg:items-start gap-y-1.5">
         {/* Greeting Title */}
         <h1 className="lg:text-left hover:scale-110 hover:m-2 transition-all font-bold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-gradient-1 to-gradient-2">
-          Hi, I'm Lim Chanvirakyuth
+          <ReactTyped
+            strings={[
+              "Hi, I'm Lim Chanvirakyuth",
+              "I'm a Frontend Developer",
+            ]}
+            typeSpeed={40}
+            backSpeed={50}
+            loop
+          />
         </h1>
 
         {/* Greeting Description */}
