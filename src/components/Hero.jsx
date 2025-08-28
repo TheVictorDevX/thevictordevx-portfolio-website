@@ -1,6 +1,6 @@
 import profilePic from "../assets/images/profile_picture.jpg";
 import { FaFileDownload, FaGithub, FaTelegram } from "react-icons/fa";
-import CV from "../assets/CV_LimChanvirakyuthI3.pdf";
+import CV from "../assets/CV_LimChanvirakyuth.pdf";
 import { ReactTyped } from "react-typed";
 
 const Hero = () => {
