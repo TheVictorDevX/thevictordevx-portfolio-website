@@ -14,12 +14,12 @@ const Hero = () => {
   return (
     <section className="w-full flex flex-col justify-center items-center gap-y-1.5 p-8">
       {/* Profile Picture */}
-      <div className="bg-gradient-to-r from-gradient-1 to-gradient-2 rounded-full w-60 p-1.25">
+      <div className="hover:scale-110 hover:m-2 transition-all bg-gradient-to-r from-gradient-1 to-gradient-2 rounded-full w-60 p-1.25">
         <img src={profilePic} alt="Profile Picture" className="rounded-full" />
       </div>
 
       {/* Greeting Title */}
-      <h1 className="font-bold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-gradient-1 to-gradient-2">
+      <h1 className="hover:scale-110 hover:m-2 transition-all font-bold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-gradient-1 to-gradient-2">
         Hi, I'm Lim Chanvirakyuth
       </h1>
 
@@ -33,10 +33,10 @@ const Hero = () => {
       </p>
 
       {/* Group Buttons */}
-      <div className="flex gap-x-1 mt-1">
+      <div className="flex justify-center items-center gap-x-1 mt-1">
         {/* GitHub Button */}
         <a
-          className="hover:scale-110 hover:m-5 transition-transform p-3 text-black font-bold bg-gradient-to-r from-gradient-1 to-gradient-2 rounded-full flex justify-center items-center"
+          className="hover:scale-110 hover:m-2 transition-all h-12 p-3 text-black font-bold bg-gradient-to-r from-gradient-1 to-gradient-2 rounded-full flex justify-center items-center"
           href="https://github.com/TheVictorDevX"
           target="_blank"
         >
@@ -44,7 +44,7 @@ const Hero = () => {
         </a>
         {/* Telegram Button */}
         <a
-          className="p-3 text-black font-bold bg-gradient-to-r from-gradient-1 to-gradient-2 rounded-full flex justify-center items-center"
+          className="hover:scale-110 hover:m-2 transition-all h-12 p-3 text-black font-bold bg-gradient-to-r from-gradient-1 to-gradient-2 rounded-full flex justify-center items-center"
           href="https://t.me/TaiKaizenToo"
           target="_blank"
         >
@@ -54,7 +54,7 @@ const Hero = () => {
 
       {/* Download CV Button */}
       <a
-        className="p-3 mt-0.5 text-black font-bold bg-gradient-to-r from-gradient-1 to-gradient-2 rounded-full flex justify-center items-center"
+        className="hover:scale-110 hover:m-2 transition-all h-12 p-3 mt-0.5 text-black font-bold bg-gradient-to-r from-gradient-1 to-gradient-2 rounded-full flex justify-center items-center"
         href={CV}
         target="_blank"
         download
