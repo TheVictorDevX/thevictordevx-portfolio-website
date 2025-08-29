@@ -8,6 +8,11 @@ import tailwind from "../assets/icons/tailwind.png";
 import react from "../assets/icons/react.png";
 import vue from "../assets/icons/vue.png";
 
+import cs from "../assets/icons/cs.png";
+import php from "../assets/icons/php.png";
+import java from "../assets/icons/java.png";
+import spring from "../assets/icons/spring.png";
+
 import SkillCard from "./SkillCard";
 import SkillSection from "./SkillSection";
 
@@ -28,10 +33,10 @@ const Skills = () => {
     </SkillSection>
 
     <SkillSection title="Backend">
-        <SkillCard icon={html} title="C#" />
-        <SkillCard icon={html} title="PHP" />
-        <SkillCard icon={html} title="Java" />
-        <SkillCard icon={html} title="Spring Boot" />
+        <SkillCard icon={cs} title="C#" />
+        <SkillCard icon={php} title="PHP" />
+        <SkillCard icon={java} title="Java" />
+        <SkillCard icon={spring} title="Spring Boot" />
     </SkillSection>
 
     <SkillSection title="Database">
