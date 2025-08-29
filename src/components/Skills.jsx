@@ -22,9 +22,16 @@ import sqlite from "../assets/icons/sqlite.png";
 import androidstudio from "../assets/icons/androidstudio.png";
 import dotnet from "../assets/icons/dotnet.png";
 
+import git from "../assets/icons/git.png";
+import github from "../assets/icons/github.png";
+import vscode from "../assets/icons/vscode.png";
+import xampp from "../assets/icons/xampp.png";
+import postman from "../assets/icons/postman.png";
+import vercel from "../assets/icons/vercel.png";
+
 import SkillCard from "./SkillCard";
 import SkillSection from "./SkillSection";
-import git from "../assets/icons/git.png";
+
 
 const Skills = () => {
   return (
@@ -65,11 +72,11 @@ const Skills = () => {
 
     <SkillSection title="Tools">
         <SkillCard icon={git} title="Git" />
-        <SkillCard icon={html} title="GitHub" />
-        <SkillCard icon={html} title="VS Code" />
-        <SkillCard icon={html} title="XAMPP" />
-        <SkillCard icon={html} title="Postman" />
-        <SkillCard icon={html} title="Vercel" />
+        <SkillCard icon={github} title="GitHub" />
+        <SkillCard icon={vscode} title="VS Code" />
+        <SkillCard icon={xampp} title="XAMPP" />
+        <SkillCard icon={postman} title="Postman" />
+        <SkillCard icon={vercel} title="Vercel" />
     </SkillSection>
 
     <SkillSection title="Design">
