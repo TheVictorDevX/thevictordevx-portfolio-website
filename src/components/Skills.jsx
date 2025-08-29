@@ -34,6 +34,10 @@ import photoshop from "../assets/icons/photoshop.png";
 import xd from "../assets/icons/xd.png";
 import ai from "../assets/icons/ai.png";
 
+import premiere from "../assets/icons/premiere.png";
+import ae from "../assets/icons/ae.png";
+import davinci from "../assets/icons/davinci.png";
+
 import SkillCard from "./SkillCard";
 import SkillSection from "./SkillSection";
 
@@ -92,9 +96,9 @@ const Skills = () => {
     </SkillSection>
 
     <SkillSection title="Video Editing">
-        <SkillCard icon={html} title="Adobe Premiere Pro" />
-        <SkillCard icon={html} title="Adobe After Effects" />
-        <SkillCard icon={html} title="DaVinci Resolve" />
+        <SkillCard icon={premiere} title="Adobe Premiere Pro" />
+        <SkillCard icon={ae} title="Adobe After Effects" />
+        <SkillCard icon={davinci} title="DaVinci Resolve" />
     </SkillSection>
 
     </section>
