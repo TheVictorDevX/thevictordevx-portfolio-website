@@ -1,4 +1,5 @@
 import Hero from "./components/Hero"
+import Title from "./components/Title"
 import Skills from "./components/Skills"
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
   return (
     <div className="w-screen bg-black text-white flex flex-col justify-center items-center">
       <Hero/>
+      <Title/>
       <Skills/>
     </div>
   )
