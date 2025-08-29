@@ -20,6 +20,7 @@ import postgresql from "../assets/icons/postgresql.png";
 import sqlite from "../assets/icons/sqlite.png";
 
 import androidstudio from "../assets/icons/androidstudio.png";
+import dotnet from "../assets/icons/dotnet.png";
 
 import SkillCard from "./SkillCard";
 import SkillSection from "./SkillSection";
@@ -57,8 +58,8 @@ const Skills = () => {
 
     <SkillSection title="Mobile & Deskstop">
         <SkillCard icon={androidstudio} title="Android Studio (Java)" />
-        <SkillCard icon={html} title=".NET (WinForms, WPF)" />
-        <SkillCard icon={html} title="Java(Swing, JavaFX)" />
+        <SkillCard icon={dotnet} title=".NET (WinForms, WPF)" />
+        <SkillCard icon={java} title="Java(Swing, JavaFX)" />
     </SkillSection>
 
     <SkillSection title="Tools">
