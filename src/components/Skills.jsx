@@ -24,10 +24,11 @@ import dotnet from "../assets/icons/dotnet.png";
 
 import SkillCard from "./SkillCard";
 import SkillSection from "./SkillSection";
+import git from "../assets/icons/git.png";
 
 const Skills = () => {
   return (
-    <section className="flex flex-col justify-center lg:items-center gap-2 lg:px-43">
+    <section className="flex flex-col justify-center items-center lg:items-center gap-2 lg:px-43 xl:w-270">
 
     <SkillSection title="Frontend">
         <SkillCard icon={html} title="HTML" />
@@ -63,7 +64,7 @@ const Skills = () => {
     </SkillSection>
 
     <SkillSection title="Tools">
-        <SkillCard icon={html} title="Git" />
+        <SkillCard icon={git} title="Git" />
         <SkillCard icon={html} title="GitHub" />
         <SkillCard icon={html} title="VS Code" />
         <SkillCard icon={html} title="XAMPP" />
