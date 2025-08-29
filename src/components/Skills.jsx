@@ -29,6 +29,11 @@ import xampp from "../assets/icons/xampp.png";
 import postman from "../assets/icons/postman.png";
 import vercel from "../assets/icons/vercel.png";
 
+import figma from "../assets/icons/figma.png";
+import photoshop from "../assets/icons/photoshop.png";
+import xd from "../assets/icons/xd.png";
+import ai from "../assets/icons/ai.png";
+
 import SkillCard from "./SkillCard";
 import SkillSection from "./SkillSection";
 
@@ -80,10 +85,10 @@ const Skills = () => {
     </SkillSection>
 
     <SkillSection title="Design">
-        <SkillCard icon={html} title="Figma" />
-        <SkillCard icon={html} title="Photoshop" />
-        <SkillCard icon={html} title="Adobe XD" />
-        <SkillCard icon={html} title="Adobe Illustrator" />
+        <SkillCard icon={figma} title="Figma" />
+        <SkillCard icon={photoshop} title="Photoshop" />
+        <SkillCard icon={xd} title="Adobe XD" />
+        <SkillCard icon={ai} title="Adobe Illustrator" />
     </SkillSection>
 
     <SkillSection title="Video Editing">
