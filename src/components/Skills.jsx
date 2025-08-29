@@ -13,6 +13,14 @@ import php from "../assets/icons/php.png";
 import java from "../assets/icons/java.png";
 import spring from "../assets/icons/spring.png";
 
+import mysql from "../assets/icons/mysql.png";
+import sqlserver from "../assets/icons/sqlserver.png";
+import mongodb from "../assets/icons/mongodb.png";
+import postgresql from "../assets/icons/postgresql.png";
+import sqlite from "../assets/icons/sqlite.png";
+
+import androidstudio from "../assets/icons/androidstudio.png";
+
 import SkillCard from "./SkillCard";
 import SkillSection from "./SkillSection";
 
@@ -40,15 +48,15 @@ const Skills = () => {
     </SkillSection>
 
     <SkillSection title="Database">
-        <SkillCard icon={html} title="MySQL" />
-        <SkillCard icon={html} title="SQL Server" />
-        <SkillCard icon={html} title="mongoDB" />
-        <SkillCard icon={html} title="PostgreSQL" />
-        <SkillCard icon={html} title="SQLite" />
+        <SkillCard icon={mysql} title="MySQL" />
+        <SkillCard icon={sqlserver} title="SQL Server" />
+        <SkillCard icon={mongodb} title="mongoDB" />
+        <SkillCard icon={postgresql} title="PostgreSQL" />
+        <SkillCard icon={sqlite} title="SQLite" />
     </SkillSection>
 
     <SkillSection title="Mobile & Deskstop">
-        <SkillCard icon={html} title="Android Studio (Java)" />
+        <SkillCard icon={androidstudio} title="Android Studio (Java)" />
         <SkillCard icon={html} title=".NET (WinForms, WPF)" />
         <SkillCard icon={html} title="Java(Swing, JavaFX)" />
     </SkillSection>
