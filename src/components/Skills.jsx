@@ -1,4 +1,13 @@
 import html from "../assets/icons/html.png";
+import css from "../assets/icons/css.png";
+import js from "../assets/icons/js.png";
+import ts from "../assets/icons/ts.png";
+import sass from "../assets/icons/sass.png";
+import bs from "../assets/icons/bs.png";
+import tailwind from "../assets/icons/tailwind.png";
+import react from "../assets/icons/react.png";
+import vue from "../assets/icons/vue.png";
+
 import SkillCard from "./SkillCard";
 import SkillSection from "./SkillSection";
 
@@ -8,14 +17,14 @@ const Skills = () => {
 
     <SkillSection title="Frontend">
         <SkillCard icon={html} title="HTML" />
-        <SkillCard icon={html} title="CSS" />
-        <SkillCard icon={html} title="JavaScript" />
-        <SkillCard icon={html} title="TypeScript" />
-        <SkillCard icon={html} title="Sass" />
-        <SkillCard icon={html} title="Bootstrap" />
-        <SkillCard icon={html} title="Tailwind CSS" />
-        <SkillCard icon={html} title="React" />
-        <SkillCard icon={html} title="Vue.js" />
+        <SkillCard icon={css} title="CSS" />
+        <SkillCard icon={js} title="JavaScript" />
+        <SkillCard icon={ts} title="TypeScript" />
+        <SkillCard icon={sass} title="Sass" />
+        <SkillCard icon={bs} title="Bootstrap" />
+        <SkillCard icon={tailwind} title="Tailwind CSS" />
+        <SkillCard icon={react} title="React" />
+        <SkillCard icon={vue} title="Vue.js" />
     </SkillSection>
 
     <SkillSection title="Backend">
