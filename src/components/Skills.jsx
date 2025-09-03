@@ -12,7 +12,7 @@ import cs from "../assets/icons/cs.png";
 import php from "../assets/icons/php.png";
 import java from "../assets/icons/java.png";
 import laravel from "../assets/icons/laravel.png";
-import spring from "../assets/icons/spring.png";
+import springboot from "../assets/icons/springboot.png";
 
 import mysql from "../assets/icons/mysql.png";
 import sqlserver from "../assets/icons/sqlserver.png";
@@ -64,7 +64,7 @@ const Skills = () => {
         <SkillCard icon={php} title="PHP" />
         <SkillCard icon={java} title="Java" />
         <SkillCard icon={laravel} title="Laravel" />
-        <SkillCard icon={spring} title="Spring Boot" />
+        <SkillCard icon={springboot} title="Spring Boot" />
     </SkillSection>
 
     <SkillSection title="Database">
