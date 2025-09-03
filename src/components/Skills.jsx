@@ -78,7 +78,7 @@ const Skills = () => {
     <SkillSection title="Mobile & Deskstop">
         <SkillCard icon={androidstudio} title="Android Studio (Java)" />
         <SkillCard icon={dotnet} title=".NET (WinForms, WPF)" />
-        <SkillCard icon={java} title="Java(Swing, JavaFX)" />
+        <SkillCard icon={java} title="Java (Swing, JavaFX)" />
     </SkillSection>
 
     <SkillSection title="Tools">
