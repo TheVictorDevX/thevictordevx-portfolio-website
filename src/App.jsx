@@ -9,6 +9,7 @@ function App() {
       <Hero/>
       <Title title="My Skills & Technologies"/>
       <Skills/>
+      <Title title="My Projects"/>
     </div>
   )
 }

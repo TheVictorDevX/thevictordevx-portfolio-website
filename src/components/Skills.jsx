@@ -11,6 +11,7 @@ import vue from "../assets/icons/vue.png";
 import cs from "../assets/icons/cs.png";
 import php from "../assets/icons/php.png";
 import java from "../assets/icons/java.png";
+import laravel from "../assets/icons/laravel.png";
 import spring from "../assets/icons/spring.png";
 
 import mysql from "../assets/icons/mysql.png";
@@ -62,6 +63,7 @@ const Skills = () => {
         <SkillCard icon={cs} title="C#" />
         <SkillCard icon={php} title="PHP" />
         <SkillCard icon={java} title="Java" />
+        <SkillCard icon={laravel} title="Laravel" />
         <SkillCard icon={spring} title="Spring Boot" />
     </SkillSection>
 
