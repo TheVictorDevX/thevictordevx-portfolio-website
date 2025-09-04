@@ -5,7 +5,7 @@ const ProjectCard = ({ project }) => {
   return (
     // Changed the outer div to an anchor tag to make the entire card a link
     <a 
-      href={project.githubUrl} 
+      href={project.url} 
       target="_blank" 
       rel="noopener noreferrer" 
       className="flex flex-col max-w-sm mx-auto my-6 bg-stone-900 rounded-3xl shadow-xl overflow-hidden transition-transform duration-300 hover:scale-105 cursor-pointer no-underline text-current"

@@ -25,8 +25,8 @@ const Hero = () => {
         <h1 className="lg:text-left hover:scale-110 hover:m-2 transition-all font-bold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-gradient-1 to-gradient-2">
           <ReactTyped
             strings={[
-              "Hi, I'm Lim Chanvirakyuth",
-              "I'm a Frontend Developer",
+              "I'm Lim Chanvirakyuth",
+              "Nice to meet you!",
             ]}
             typeSpeed={40}
             backSpeed={50}
@@ -38,9 +38,11 @@ const Hero = () => {
         <p className="lg:text-left text-center leading-5">
           I build responsive and beautiful websites.
           <br />
-          My goal is to create seamless digital experiences
+          and create seamless digital experiences
           <br />
           that are a joy for people to use.
+          <br />
+          My skills also extend to video production.
         </p>
 
         {/* Group Buttons */}
