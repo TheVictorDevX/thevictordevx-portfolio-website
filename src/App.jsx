@@ -204,8 +204,8 @@ function App() {
       <Skills/>
       <Title title="My Software Projects"/>
       <Projects projects={softwareProjects}/>
-      <Title title="My Media Projects"/>
-      <Projects projects={mediaProjects}/>
+      {/* <Title title="My Media Projects"/>
+      <Projects projects={mediaProjects}/> */}
       <Title title="Thank you so much for visiting!"/>
     </div>
   )
