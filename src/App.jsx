@@ -14,6 +14,7 @@ function App() {
       <Skills/>
       <Title title="My Projects"/>
       <Projects/>
+      <Title title="Thank you so much for visiting!"/>
     </div>
   )
 }

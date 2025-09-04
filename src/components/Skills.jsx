@@ -45,7 +45,7 @@ import SkillSection from "./SkillSection";
 
 const Skills = () => {
   return (
-    <section className="flex flex-col justify-center items-center lg:items-center gap-2 lg:px-43 xl:w-270">
+    <section className="flex flex-col justify-center items-center lg:items-center gap-2 lg:px-43 xl:w-270 mt-3">
 
     <SkillSection title="Frontend">
         <SkillCard icon={html} title="HTML" />
