@@ -1,6 +1,9 @@
 import Hero from "./components/Hero"
 import Title from "./components/Title"
 import Skills from "./components/Skills"
+import Projects from "./components/Projects"
+
+
 
 function App() {
 
@@ -10,6 +13,7 @@ function App() {
       <Title title="My Skills & Technologies"/>
       <Skills/>
       <Title title="My Projects"/>
+      <Projects/>
     </div>
   )
 }
