@@ -5,12 +5,14 @@ import ts from "../assets/icons/ts.png";
 import sass from "../assets/icons/sass.png";
 import bs from "../assets/icons/bs.png";
 import tailwind from "../assets/icons/tailwind.png";
+import blade from "../assets/icons/blade.png";
 import react from "../assets/icons/react.png";
 import vue from "../assets/icons/vue.png";
 
 import cs from "../assets/icons/cs.png";
 import php from "../assets/icons/php.png";
 import java from "../assets/icons/java.png";
+import json from "../assets/icons/json.png";
 import laravel from "../assets/icons/laravel.png";
 import springboot from "../assets/icons/springboot.png";
 
@@ -55,6 +57,7 @@ const Skills = () => {
         <SkillCard icon={sass} title="Sass" />
         <SkillCard icon={bs} title="Bootstrap" />
         <SkillCard icon={tailwind} title="Tailwind CSS" />
+        <SkillCard icon={blade} title="Blade" />
         <SkillCard icon={react} title="React" />
         <SkillCard icon={vue} title="Vue.js" />
     </SkillSection>
@@ -63,6 +66,7 @@ const Skills = () => {
         <SkillCard icon={cs} title="C#" />
         <SkillCard icon={php} title="PHP" />
         <SkillCard icon={java} title="Java" />
+        <SkillCard icon={json} title="JSON Server" />
         <SkillCard icon={laravel} title="Laravel" />
         <SkillCard icon={springboot} title="Spring Boot" />
     </SkillSection>
